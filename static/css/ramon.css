@@ -1,7 +1,15 @@
-#r-indexColumn{
+#r-indexColumnL{
 	padding: initial;
 	border: none;
-	background-color: white;
+	text-align: -webkit-right;
+	width: 48.8%;
+}
+
+#r-indexColumnR{
+	padding: initial;
+	border: none;
+	text-align: -webkit-left;
+	width: 48.8%;
 }
 
 #r-indexTitle{
@@ -12,4 +20,8 @@
 #r-indexImg{
 	width: 80%;
 	height:80%;
+}
+
+#r-indexButton{
+	width: 20%;
 }
