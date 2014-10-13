@@ -1,5 +1,4 @@
 #j-loginInputBox{
-  margin-bottom: 10px;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -9,7 +8,6 @@
   margin-right: auto;
   margin-left: auto;
   width: 75%;
-  margin-bottom: 10px;
 }
 
 #j-login{
@@ -21,4 +19,5 @@
 
 #j-loginRows{
   text-align: center;
+  margin-bottom: 5px;
 }
