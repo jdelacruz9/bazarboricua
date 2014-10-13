@@ -1,0 +1,15 @@
+#r-indexColumn{
+	padding: initial;
+	border: none;
+	background-color: white;
+}
+
+#r-indexTitle{
+	color: white;
+	font-weight: 500;
+}
+
+#r-indexImg{
+	width: 80%;
+	height:80%;
+}
