@@ -3,3 +3,17 @@
 	margin-right: auto;
 	margin-left: auto;
 }
+
+#logo{
+	height: 60%;
+	width: 60%;
+	margin-top: 10%;
+}
+
+#searchBtn{
+	padding-top: 8%;
+}
+
+#selectBox{
+	  size: 4;
+}

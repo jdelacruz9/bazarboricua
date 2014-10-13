@@ -9,64 +9,74 @@
 
   </head>
   <body>
+
   	<div class="container" id="bieneContainer">
+
+  		<img class="img-thumbnail" src='../static/images/logo.png' id="logo">
+
 	    <h1>Bienes Raices</h1>
 	    	<p>
-				<div class="btn-group">
-					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-						Pueblo o Area <span class="caret"></span>
-					</button>
-					 <ul class="dropdown-menu" role="menu">
-					    <li><a href="#">Cayey</a></li>
-					    <li><a href="#">Villalba</a></li>
-					    <li><a href="#">Rio Piedras</a></li>
-					    <li><a href="#">Aguadilla</a></li>
-					    <li><a href="#">Ponce</a></li>
-					 </ul>
-				</div>
+      			<div class="col-lg-5">
+	                <select class="form-control" name="puebloArea">
+		                <option value="" disabled selected>Pueblo o Area</option>
+		                <option value="areaMetro">Area Metro</option>
+		                <option value="Carolina">Carolina</option>
+		                <option value="Bayamon">Bayamon</option>
+		                <option value="Caguas">Caguas</option>
+	            	</select>
+        		</div>
+    
 			</p>
 			<p>
-				<div class="btn-group">
-  					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    					Tipo de propiedad <span class="caret"></span>
-  					</button>
-					  <ul class="dropdown-menu" role="menu">
-					    <li><a href="#">Casa</a></li>
-					    <li><a href="#">Finca</a></li>
-					    <li><a href="#">Apartamento</a></li>
-					    <li><a href="#">Solar</a></li>
-					    <li><a href="#">Comercio</a></li>
-					  </ul>
-				</div>
+				<div class="col-lg-5">
+	                <select class="form-control" name="tipoPropiedad">
+		                <option value="" disabled selected>Tipo de Propiedad</option>
+		                <option value="solar">Solar</option>
+		                <option value="finca">Finca</option>
+		                <option value="comercio">Comercio</option>
+		                <option value="aparta">Apartamento</option>
+		                <option value="casa">Casa</option>
+	            	</select>
+        		</div>
 			</p>
 			<p>
-				<div class="btn-group">
-  					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    					Precio desde <span class="caret"></span>
-  					</button>
-					  <ul class="dropdown-menu" role="menu">
-					    <li><a href="#">1000</a></li>
-					    <li><a href="#">2000</a></li>
-					    <li><a href="#">3000</a></li>
-					    <li><a href="#">4000</a></li>
-					    <li><a href="#">5000</a></li>
-					  </ul>
-				</div>
-				<div class="btn-group">
-  					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    					Precio desde <span class="caret"></span>
-  					</button>
-					  <ul class="dropdown-menu" role="menu">
-					    <li><a href="#">10000</a></li>
-					    <li><a href="#">20000</a></li>
-					    <li><a href="#">30000</a></li>
-					    <li><a href="#">40000</a></li>
-					    <li><a href="#">50000</a></li>
-					  </ul>
+				<div class = "col-xs-6">
+	                <select class="form-control" name="precioDesde">
+		                <option value="" disabled selected>Precio desde</option>
+		                <option value="mil">1000</option>
+		                <option value="2mil">2000</option>
+		                <option value="3mil">3000</option>
+		                <option value="4mil">4000</option>
+		                <option value="5mil">5000</option>
+	            	</select>
+        		</div>
+				<div class = "col-xs-6">
+	                <select class="form-control" name="precioHasta">
+		                <option value="" disabled selected>Precio hasta</option>
+		                <option value="10mil">10000</option>
+		                <option value="20mil">20000</option>
+		                <option value="30mil">30000</option>
+		                <option value="40mil">40000</option>
+		                <option value="50mil">50000</option>
+	            	</select>
+        		</div>
+
+			</p>
+
+		
+			<p>
+
+				<div class="btn-group btn-group-justified" id="searchBtn">
+					<div class="btn-group">
+				  		<button type="button" class="btn btn-lg btn-primary">Search</button>
+				  	</div>
 				</div>
 			</p>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="../static/js/bootstrap.min.js"></script>
+	
+
   </body>
 </html>
+
