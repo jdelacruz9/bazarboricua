@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>kimono test</title>
+	</head>
+
+	<body>
+		{% if m_list %}
+		{%	for i in m_list.results.Mascotas %}
+			<p> {{i.Nombre}} </p>
+			<p> {{i.TipoAnimal}}</p>
+			<p> {{i.Lugar}}</p>
+			<p> {{i.Costo}}</p>
+			<p>----------------------</p>
+		{% endfor %}
+		{% else %}
+			<p>no m_list found</p>
+		{% endif %}
+	</body>
+
+</html>
