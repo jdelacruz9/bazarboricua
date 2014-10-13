@@ -11,8 +11,8 @@
 }
 
 #j-login{
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 15%;
+  padding-left: 15%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -20,4 +20,24 @@
 #j-loginRows{
   text-align: center;
   margin-bottom: 5px;
+}
+
+#j-colizqResult{
+  width: 25%;
+  text-align: left;
+}
+
+#j-colmidResult{
+  width: 50%;
+  text-align: center;
+  padding: 0px;
+}
+
+#j-colderResult{
+  width: 25%;
+  text-align: right;
+}
+
+#oddRowsResult{
+  background-color: rgba(255, 255, 255, 0.35);
 }
